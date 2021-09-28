@@ -20,6 +20,10 @@
 
   </head>
 
+  <body style="background-color: #ffffff">
+  <h1> </h1>
+  </body>
+
   <!-- cover -->
   <section>
     <div class="jumbotron text-center mt-0">
@@ -35,7 +39,6 @@
                 <a target="_blank">Runsen Xu</a><sup>1</sup>,
                 <a target="_blank">Weijian Xie</a><sup>1,2</sup>,
                 <a target="_blank">Hujun Bao</a><sup>1</sup>,
-                <a target="_blank">Danpeng Chen</a><sup>1</sup>,
                 <a href="http://www.cad.zju.edu.cn/home/gfzhang/" target="_blank">Guofeng Zhang</a><sup>1*</sup></h6>
             <p> <sup>1</sup>State Key Lab of CAD & CG, Zhejiang University&nbsp;&nbsp;
                 <sup>2</sup>SenseTime Research and Tetras.AI
@@ -117,10 +120,17 @@
                 <source src="videos/demo02.mp4" type="video/mp4">
             </video>
         </div>
+        <br>
+        <br>
+        <p class="text-justify">
+            BVIO is our RNIN-VIO without the neural inertial network constraints.
+            The left video is our offline test on a computer with an i7-6700 CPU and 16G RAM.
+            The right video is an online AR Demo. We take Huawei’s Mate20 pro as the testing device.
+            The inputs are 30Hz images with 512 × 384 resolution and 200 Hz IMU data.
+        </p>
       </div>
     </div>
   </section>
-  <br>
 
   <!-- system overview -->
   <br>
@@ -309,8 +319,8 @@
                 We compare our method against the following baseline algorithms:
                 (a) <a href="https://ronin.cs.sfu.ca/" target="_blank">3D-RoNIN</a>.
                 (b) <a href="https://cathias.github.io/TLIO/" target="_blank">TLIO</a>.
-                (c) Ours (wo AL) is our proposed network without absolute loss.
-                (d) BVIO is our RNIN-VIO without neural inertial network constraints.
+                (c) Ours (wo AL) is our proposed network without the absolute loss.
+                (d) BVIO is our RNIN-VIO without the neural inertial network constraints.
                 (e) <a href="https://github.com/HKUST-Aerial-Robotics/VINS-Mono">VINS-Mono</a>
             </p>
         </div>
@@ -340,10 +350,7 @@
                       Compare with RoNIN and TLIO, our system achieves higher absolute and relative accuracy.
                   </p>
                   <br>
-                  <img class="img-fluid" src="images/table00.png" width="48%">
-                  <br>
-                  <br>
-                  <img class="img-fluid" src="images/table01.png" width="45%">
+                  <img class="img-fluid" src="images/table0.png" width="98%">
                   <br>
                   <br>
                   <p class="text-justify">
@@ -363,10 +370,7 @@
               <div class="col text-center">
                   <h5 class="text-left"><li><b>RNIN-VIO</b></li></h5>
                   <br>
-                  <img class="img-fluid" src="images/table02.png" width="40%">
-                  <br>
-                  <br>
-                  <img class="img-fluid" src="images/table03.png" width="45%">
+                  <img class="img-fluid" src="images/table1.png" width="98%">
                   <br>
                   <br>
                   <p class="text-justify">
