@@ -73,19 +73,19 @@
                 In this work, we propose a tightly-coupled EKF framework for
                 visual-inertial odometry with NIN (Neural Inertial Navigation) aided.
                 Traditional VIO systems are fragile in challenging scenes with weak
-                or confusing visual information, such as weak/repeated texture, dy-
-                namic environment, fast camera motion with serious motion blur, etc.
+                or confusing visual information, such as weak/repeated texture, dynamic environment,
+                fast camera motion with serious motion blur, etc.
                 It is extremely difficult for a vision-based algorithm to handle these
                 problems. So we firstly design a robust deep learning based inertial
                 network (called RNIN), using only IMU measurements as input.
-                RNIN is significantly more robust in challenging scenes than tradi-
-                tional VIO systems. In order to take full advantage of vision-based
+                RNIN is significantly more robust in challenging scenes than traditional VIO systems.
+                In order to take full advantage of vision-based
                 algorithms in AR/VR areas, we further develop a multi-sensor fusion
                 system RNIN-VIO, which tightly couples the visual, IMU and NIN
-                measurements. Our system performs robustly in extremely chal-
-                lenging conditions, with high precision both in trajectories and AR
-                effects. The experimental results of evaluation on dataset evaluation
-                and online AR demo demonstrate the superiority of the proposed
+                measurements. Our system performs robustly in extremely challenging conditions,
+                with high precision both in trajectories and AR
+                effects. The experimental results of evaluation on dataset and
+                online AR demo demonstrate the superiority of the proposed
                 system in robustness and accuracy.
             </p>
         </div>
@@ -280,12 +280,12 @@
           <p class="text-justify">
               We try to integrate the robust but low-precision neural network IMU
               observations with the traditional visual-inertial navigation system,
-              in order to construct a highly robust and precise visual-inertial nav-
-              igation system. The traditional visual-inertial fusion can estimate
+              in order to construct a highly robust and precise visual-inertial navigation system.
+              The traditional visual-inertial fusion can estimate
               high accuracy states, such as pose, velocity, the direction of gravity,
               and IMU bias. On the one hand, better state estimation can provide
-              better initialization data for the IMU neural network to regress rela-
-              tive translation and covariance, thereby improving the effectiveness
+              better initialization data for the IMU neural network to regress relative translation and
+              covariance, thereby improving the effectiveness
               of network estimation. On the other hand, the IMU neural network
               can enhance the robustness of the navigation system.
           </p>
