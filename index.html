@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -406,13 +406,34 @@
                       provide the positions aligned with gravity
                       at IMU frequency on the dataset. Part of the data is collected in
                       the VICON room, so it has high-precision trajectory provided by
-                      VICON. Our Dataset is
-                      <a href="https://drive.google.com/file/d/1HfuZYnSdeCiFsqkP57Jn9i_y22kpQ7xp/view?usp=sharing" target="_blank">available</a>.
+                      VICON.
+                      We release
+                      <a href="https://drive.google.com/file/d/1HfuZYnSdeCiFsqkP57Jn9i_y22kpQ7xp/view?usp=sharing" target="_blank">our Dataset</a>.
+                      collected by ourselves. The data is stored in <code>SenseINS.csv</code>. The format of files are as follow:
                   </p>
               </div>
           </div>
       </div>
   </section>
+
+  <!-- The dataset format -->
+  <div class="container">
+      <pre style="background-color: #e9eeef;padding: 1.25em 1.5em">
+        <code>    Data
+            |--data_train
+            |   |--0
+            |     |--SenseINS.csv
+            |   |--...
+            |--data_val
+            |   |--0
+            |     |--SenseINS.csv
+            |   |--...
+            |--data_test
+            |   |--0
+            |     |--SenseINS.csv
+            |   |--...
+            |--Sense_INS_Data.md     // The format description of SenseINS.csv</code></pre>
+  </div>
 
   <!-- citing -->
   <br>
